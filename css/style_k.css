@@ -62,6 +62,7 @@ header .left_box{
 }
 header .left_box .head_menu{
   padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 header .left_box .la_btn{
   padding-bottom: 20px;
@@ -117,6 +118,16 @@ header .right_box ul li:nth-child(3){
 header .left_box ul li:first-child{
   margin-right: 20%;
 }
+#fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner span {
+  font-family:'Playfair Display SC',"游明朝",YuMincho,"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+  font-size: 16px;
+  margin-bottom: 1em;
+}
 /* header ---- SP */
 @media (max-width: 768px) {
   header {
@@ -124,9 +135,6 @@ header .left_box ul li:first-child{
   }
   header h1{
     margin: 0 0 20px;
-  }
-  header .left_box .head_menu {
-    padding-bottom: 20px;
   }
   header .center_box span {
     font-size: 8px;
@@ -205,9 +213,6 @@ header .left_box ul li:first-child{
 /* =======================================================
 * sample.html
 * ======================================================= */
-.intro-heading {
-    font-size: 50px;
-}
 h3{
   padding: 0 10px 30px;
   border-bottom: 1px solid #333;
