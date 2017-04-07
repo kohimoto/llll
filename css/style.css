@@ -595,16 +595,6 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   bottom: 0;
   z-index: 1000;
 }
-@media screen and (max-width: 768px) {
-  #fh5co-hero .flexslider .flex-control-nav {
-    bottom: -15em;
-  }
-}
-@media screen and (max-width: 480px) {
-  #fh5co-hero .flexslider .flex-control-nav {
-    bottom: -10em;
-  }
-}
 #fh5co-hero .flexslider .flex-control-nav li a {
   background: rgba(255, 255, 255, 0.2);
   box-shadow: none;
@@ -624,11 +614,6 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
   opacity: 0;
   height: 700px;
   z-index: 9;
-}
-@media screen and (max-width: 768px) {
-  #fh5co-hero .flexslider .slider-text {
-    text-align: center;
-  }
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner {
   display: table-cell;

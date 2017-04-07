@@ -4,9 +4,9 @@
 *	Yuka Edit
 *
 * ======================================================= */
-@import url(https://fonts.googleapis.com/css?family=Roboto:700);
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400i);
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display+SC:700);
+@import url(https://fonts.googleapis.com/css?family=Italianno);
 /* common */
 @media (min-width: 1400px) {
   .container {
@@ -35,7 +35,7 @@ font-size:60px;
 /* header */
 header{
   color: #333;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
   font-variant: normal;
   font-size: 13px;
@@ -44,7 +44,7 @@ header{
 }
 header p{
   color: #af9678;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
   font-variant: normal;
   font-size: 16px;
@@ -73,8 +73,14 @@ header .left_box .la_btn{
   padding-bottom: 30px;
 }
 header .left_box .la_btn a{
-  padding: 3px 12px;
+  padding: 4px 14px;
   border: 2px solid #af9678;
+  white-space: nowrap;
+}
+header .left_box .la_btn a:hover{
+  background-color: #af9678;
+  color: #fff;
+  padding: 4px 14px;
   white-space: nowrap;
 }
 header .center_box{
@@ -83,7 +89,7 @@ header .center_box{
 }
 header .center_box span{
   color: #af9678;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-style: normal;
   font-variant: normal;
   font-size: 10px;
@@ -122,18 +128,6 @@ header .right_box ul li:nth-child(3){
 }
 header .left_box ul li:first-child{
   margin-right: 20%;
-}
-#fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
-  font-size: 30px;
-  margin-bottom: 10px;
-  margin-top: 20px;
-  color: #81d8d0;
-}
-#fh5co-hero .flexslider .slider-text > .slider-text-inner span {
-  font-family:'Playfair Display SC',"游明朝",YuMincho,"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
-  font-size: 16px;
-  margin-bottom: 1em;
-  color: #af9678;
 }
 /* header ---- SP */
 @media (max-width: 768px) {
@@ -187,6 +181,56 @@ header .left_box ul li:first-child{
     font-size: 14px;
   }
 }
+/* home */
+#fh5co-hero .flexslider .slider-text {
+    padding-left: 8%;
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
+  font-size: 200px;
+  font-family: 'Italianno', cursive;
+  color: #fff;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  line-height: 0.6;
+}
+#fh5co-hero .flexslider ul li:nth-child(1) .slider-text > .slider-text-inner h2{
+  font-size: 180px;
+  color: #af9678;
+  line-height: 0.6;
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner h2 img{
+  width:300px;
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner h2 .upper {
+  font-size: 280px;
+  font-family: 'Italianno', cursive;
+  color: #fff;
+}
+#fh5co-hero .flexslider .slider-text > .slider-text-inner span {
+  font-family:"游明朝",YuMincho,"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+  font-size: 20px;
+  margin-bottom: 1em;
+  color: #766149;
+}
+/* home-img ---- SP */
+@media (max-width: 768px) {
+  #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
+    font-size: 70px;
+  }
+  #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 .upper {
+    font-size: 120px;
+  }
+  #fh5co-hero .flexslider .slider-text > .slider-text-inner span {
+    font-size: 18px;
+  }
+  #fh5co-hero .flexslider ul li:nth-child(1) .slider-text > .slider-text-inner h2{
+    font-size: 120px;
+  }
+}
+
+
+
+
 /* nav */
 .fh5co-nav-toggle{
   display: table;
@@ -254,12 +298,12 @@ nav .fh5co-nav-toggle i::after {
 }
 #footer ul li,
 #footer ul li span{
-font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
 }
 #footer .copy-right p{
-  font-family: 'Roboto', sans-serif;
-  font-size: 12px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
 }
 #footer .col-md-4{
   padding-bottom: 2em;
