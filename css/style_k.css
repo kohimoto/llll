@@ -318,6 +318,9 @@ nav .fh5co-nav-toggle i::after {
 }
 /* home-img ---- SP */
 @media (max-width: 768px) {
+  #fh5co-hero .container{
+    padding: 0 15px
+  }
   #fh5co-hero,
   #fh5co-hero .flexslider,
   #fh5co-hero .flexslider .slides li,
