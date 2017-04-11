@@ -398,3 +398,8 @@ li{
 .col-md-6 {
     margin-bottom: 1.5em;
 }
+.gold_line{
+  border-top: 2px solid #af9678;
+  display: block;
+  margin-top: 2em;
+}
