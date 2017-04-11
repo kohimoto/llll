@@ -406,3 +406,11 @@ li{
   display: block;
   margin-top: 2em;
 }
+.btn{
+  font-family: "Playfair Display SC","游明朝",YuMincho,"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+  color: #fff;
+  background-color: #af9678;
+}
+.btn:hover{
+  opacity: 0.6;
+}
