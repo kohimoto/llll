@@ -16,6 +16,9 @@
     width: 1330px;
   }
 }
+.container {
+  padding: 0;
+}
 a:hover{
   color: #81d8d0;
   text-decoration: none;
@@ -390,7 +393,7 @@ li{
     margin-bottom: 0;
 }
 #fh5co-about-section{
-padding-bottom: 4em;
+  padding-bottom: 4em;
 }
 .col-md-6 {
     margin-bottom: 1.5em;
