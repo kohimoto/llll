@@ -199,7 +199,8 @@ header .left_box ul li:first-child{
   line-height: 0.6;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 img{
-  width:300px;
+  width:260px;
+  margin-bottom: 40px;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 .upper {
   font-size: 280px;
@@ -214,6 +215,15 @@ header .left_box ul li:first-child{
 }
 /* home-img ---- SP */
 @media (max-width: 768px) {
+  #fh5co-hero,
+  #fh5co-hero .flexslider,
+  #fh5co-hero .flexslider .slides li,
+  #fh5co-hero .flexslider .slider-text {
+    height: 500px !important;
+  }
+  #fh5co-hero .flexslider .flex-control-nav {
+    bottom: -180px;
+  }
   #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
     font-size: 70px;
   }
@@ -221,16 +231,15 @@ header .left_box ul li:first-child{
     font-size: 120px;
   }
   #fh5co-hero .flexslider .slider-text > .slider-text-inner span {
-    font-size: 18px;
+    font-size: 16px;
   }
   #fh5co-hero .flexslider ul li:nth-child(1) .slider-text > .slider-text-inner h2{
     font-size: 120px;
   }
+  #fh5co-hero .flexslider ul li:nth-child(1) .slider-text > .slider-text-inner h2 img{
+    width:160px;
+  }
 }
-
-
-
-
 /* nav */
 .fh5co-nav-toggle{
   display: table;
@@ -248,7 +257,7 @@ header .left_box ul li:first-child{
   font-family:'Playfair Display SC',"游明朝",YuMincho,"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
 }
 #fh5co-main-nav ul li a:hover {
-  color:#81d8d0;
+  color:#aaa;
 }
 nav #fh5co-main-nav .fh5co-nav-toggle {
     background-color: #fa64aa;
@@ -257,6 +266,11 @@ nav .fh5co-nav-toggle i::before,
 nav .fh5co-nav-toggle i::after {
   width: 20px;
   left: 5px;
+}
+@media (max-width: 768px) {
+  #fh5co-main-nav ul li a {
+    font-size: 20px;
+  }
 }
 /* title */
 .title_bg{
