@@ -283,31 +283,37 @@ nav .fh5co-nav-toggle i::after {
 #fh5co-hero .flexslider .slider-text {
     padding-left: 8%;
 }
-#fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
-  font-size: 200px;
-  font-family: 'Italianno', cursive;
-  color: #fff;
-  margin-bottom: 10px;
-  margin-top: 20px;
-  line-height: 0.6;
+#fh5co-hero .flexslider .slider-text > .slider-text-inner {
+    padding-bottom: 180px;
+    vertical-align: bottom;
 }
+#fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
+  font-size: 100px;
+  color: #fff;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  line-height: 1;
+}
+
 #fh5co-hero .flexslider ul li:nth-child(1) .slider-text > .slider-text-inner h2{
-  font-size: 160px;
+  font-size: 100px;
   color: #af9678;
   line-height: 1;
 }
+/*
 #fh5co-hero .flexslider ul li:nth-child(1) .slider-text > .slider-text-inner h2 .upper{
   font-size: 280px;
   color: #af9678;
   line-height: 1;
 }
+*/
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 img{
-  width:180px;
-  margin-bottom: 40px;
+  width:140px;
+  margin-bottom: 80px;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 .upper {
-  font-size: 280px;
-  font-family: 'Italianno', cursive;
+  font-family:'Playfair Display SC',"游明朝",YuMincho,"ヒラギノ明朝 ProN W3","Hiragino Mincho ProN","HG明朝E","ＭＳ Ｐ明朝","ＭＳ 明朝",serif;
+  font-size: 160px;
   color: #fff;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner span {
@@ -318,6 +324,12 @@ nav .fh5co-nav-toggle i::after {
 }
 /* home-img ---- SP */
 @media (max-width: 768px) {
+  .title_bg {
+    padding-top: 1em;
+  }
+  #fh5co-hero{
+    margin-bottom: 3em;
+  }
   #fh5co-hero .container{
     padding: 0 15px
   }
@@ -330,26 +342,24 @@ nav .fh5co-nav-toggle i::after {
   #fh5co-hero .flexslider .flex-control-nav {
     bottom: -180px;
   }
+  #fh5co-hero .flexslider .slider-text > .slider-text-inner {
+      padding-bottom: 80px;
+  }
   #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
-    font-size: 70px;
+    font-size: 40px;
   }
   #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 .upper {
-    font-size: 120px;
+    font-size: 50px;
   }
   #fh5co-hero .flexslider .slider-text > .slider-text-inner span {
     font-size: 16px;
   }
   #fh5co-hero .flexslider ul li:nth-child(1) .slider-text > .slider-text-inner h2{
-    font-size: 60px;
-    line-height: 1;
-  }
-  #fh5co-hero .flexslider ul li:nth-child(1) .slider-text > .slider-text-inner h2 .upper{
-    font-size: 80px;
-    color: #af9678;
+    font-size: 40px;
   }
   #fh5co-hero .flexslider ul li:nth-child(1) .slider-text > .slider-text-inner h2 img{
-    width:120px;
-    margin-bottom: 40px;
+    width:100px;
+    margin-bottom: 30px;
   }
 }
 /* =======================================================
