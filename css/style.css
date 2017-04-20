@@ -582,13 +582,17 @@ header .fh5co-navbar-brand .fh5co-logo:active, header .fh5co-navbar-brand .fh5co
 }
 #fh5co-hero .flexslider .slides li:after {
   position: absolute !important;
-  top: 0;
+
   bottom: 0;
   left: 0;
   right: 0;
   content: '';
-  /*background: rgba(0, 0, 0, 0.2);*/
+  background: none;
   z-index: 1;
+}
+#fh5co-hero .flexslider .slides li:nth-child(4):after {
+  background: rgba(255,255,255, 0.4);
+  top: 50%;
 }
 #fh5co-hero .flexslider .flex-control-nav {
   position: absolute;

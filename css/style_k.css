@@ -284,7 +284,7 @@ nav .fh5co-nav-toggle i::after {
     padding-left: 8%;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner {
-    padding-bottom: 180px;
+    padding-bottom: 140px;
     vertical-align: bottom;
 }
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 {
@@ -324,14 +324,14 @@ nav .fh5co-nav-toggle i::after {
 }
 /* home-img ---- SP */
 @media (max-width: 768px) {
-  .title_bg {
-    padding-top: 1em;
-  }
   #fh5co-hero{
     margin-bottom: 3em;
   }
   #fh5co-hero .container{
     padding: 0 15px
+  }
+  #fh5co-hero .flexslider .slider-text {
+    padding-left: 0;
   }
   #fh5co-hero,
   #fh5co-hero .flexslider,
@@ -355,7 +355,10 @@ nav .fh5co-nav-toggle i::after {
     font-size: 16px;
   }
   #fh5co-hero .flexslider ul li:nth-child(1) .slider-text > .slider-text-inner h2{
-    font-size: 40px;
+    font-size: 50px;
+  }
+  #fh5co-hero .flexslider ul li:nth-child(5) .slider-text > .slider-text-inner h2{
+    font-size: 34px;
   }
   #fh5co-hero .flexslider ul li:nth-child(1) .slider-text > .slider-text-inner h2 img{
     width:100px;
