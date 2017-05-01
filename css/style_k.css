@@ -406,7 +406,8 @@ li{
   border: 1px solid #af9678;
 }
 #fh5co-intro-section {
-    margin-bottom: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 #fh5co-about-section{
   padding-bottom: 4em;
