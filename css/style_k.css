@@ -241,8 +241,7 @@ nav .fh5co-nav-toggle i::after {
   }
 }
 #footer {
-  /*border-top: 1px solid #af9678;*/
-  padding: 4em 0 2em;
+  padding: 4em 0 0;
   background-image: url(../images/common/line.gif);
   background-repeat: repeat-x;
 }
@@ -294,19 +293,14 @@ nav .fh5co-nav-toggle i::after {
   margin-top: 20px;
   line-height: 1;
 }
-
 #fh5co-hero .flexslider ul li:nth-child(1) .slider-text > .slider-text-inner h2{
   font-size: 100px;
   color: #af9678;
   line-height: 1;
 }
-/*
-#fh5co-hero .flexslider ul li:nth-child(1) .slider-text > .slider-text-inner h2 .upper{
-  font-size: 280px;
-  color: #af9678;
-  line-height: 1;
+#fh5co-hero .flexslider ul li:nth-child(4) .slider-text > .slider-text-inner span{
+  color: #fff;
 }
-*/
 #fh5co-hero .flexslider .slider-text > .slider-text-inner h2 img{
   width:140px;
   margin-bottom: 80px;
