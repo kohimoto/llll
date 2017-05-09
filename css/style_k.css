@@ -19,6 +19,12 @@
 .container {
   padding: 0;
 }
+a{
+  color: #000;
+}
+#footer a:hover, #footer a:focus{
+  color: #000;
+}
 a:hover{
   color: #81d8d0;
   text-decoration: none;
