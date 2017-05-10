@@ -366,6 +366,23 @@ nav .fh5co-nav-toggle i::after {
   }
 }
 /* =======================================================
+* voice.html
+* ======================================================= */
+.voice_text{
+  border: 1px solid #af9678;
+  margin-bottom: 60px;
+  padding: 35px;
+}
+/* voice_text ---- SP */
+@media (max-width: 768px) {
+  .row .voice_text{
+    border: 1px solid #af9678;
+    margin:0 20px 30px;
+    padding: 20px;
+    width: auto;
+  }
+}
+/* =======================================================
 * sample.html
 * ======================================================= */
 h3{
