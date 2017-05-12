@@ -195,6 +195,16 @@ header .left_box ul li:first-child{
   header p {
     font-size: 14px;
   }
+  header.short_head{
+    padding: 3em 0 0;
+  }
+  header.short_head .center_box{
+    display: none;
+  }
+  header.short_head .left_box {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
 }
 
 /* nav */
