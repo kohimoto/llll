@@ -276,6 +276,9 @@ nav .fh5co-nav-toggle i::after {
 #footer ul li a:hover{
   color: #81d8d0;
 }
+#footer p a:hover{
+  color: #81d8d0;
+}
 #footer ul li,
 #footer ul li span{
   font-family: 'Josefin Sans','Quicksand', sans-serif;
@@ -313,6 +316,14 @@ nav .fh5co-nav-toggle i::after {
   font-size: 100px;
   color: #af9678;
   line-height: 1;
+}
+#fh5co-hero .flexslider ul li:nth-child(2) .slider-text > .slider-text-inner span,
+#fh5co-hero .flexslider ul li:nth-child(3) .slider-text > .slider-text-inner span{
+  color: #e5879c;
+}
+#fh5co-hero .flexslider ul li:nth-child(2) .slider-text > .slider-text-inner span.upper,
+#fh5co-hero .flexslider ul li:nth-child(3) .slider-text > .slider-text-inner span.upper{
+  color: #fff;
 }
 #fh5co-hero .flexslider ul li:nth-child(4) .slider-text > .slider-text-inner span{
   color: #fff;
@@ -392,6 +403,14 @@ nav .fh5co-nav-toggle i::after {
     width: auto;
   }
 }
+/* =======================================================
+* menu.html
+* ======================================================= */
+/*.menu_table{
+  border-bottom: 1px solid #af9678;
+}*/
+
+
 /* =======================================================
 * sample.html
 * ======================================================= */
