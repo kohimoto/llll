@@ -406,11 +406,42 @@ nav .fh5co-nav-toggle i::after {
 /* =======================================================
 * menu.html
 * ======================================================= */
-/*.menu_table{
-  border-bottom: 1px solid #af9678;
-}*/
-
-
+.menu_h h3 {
+  border: none;
+}
+.menu_table {
+  border-bottom: 1px solid #222;
+  border-right: 1px solid #222;
+  display: inline-table;
+  margin: 0 15px 40px;
+}
+.menu_table .col-sm-6 {
+  border-left: 1px solid #222;
+  border-top: 1px solid #222;
+  margin-bottom: 0;
+}
+.menu_table .col-sm-6:nth-child(odd){
+  background-color: #af9678;
+  border-top: 1px solid #222;
+}
+/*
+.menu_table a:nth-child(1) .col-sm-6 {
+  border-top: 1px solid #222;
+}
+*/
+.menu_table .col-sm-6:nth-child(odd) p {
+  color: #fff;
+}
+.menu_table .col-sm-6 p {
+  line-height: 2;
+  margin-bottom: 0;
+  padding: 10px;
+}
+@media (max-width: 768px) {
+  .menu_table {
+    display: block;
+  }
+}
 /* =======================================================
 * sample.html
 * ======================================================= */
