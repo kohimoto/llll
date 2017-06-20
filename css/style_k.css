@@ -319,8 +319,9 @@ nav .fh5co-nav-toggle i::after {
 }
 #fh5co-hero .flexslider ul li:nth-child(2) .slider-text > .slider-text-inner span,
 #fh5co-hero .flexslider ul li:nth-child(3) .slider-text > .slider-text-inner span{
-  color: #e5879c;
+  color: #d0b89a;
 }
+
 #fh5co-hero .flexslider ul li:nth-child(2) .slider-text > .slider-text-inner span.upper,
 #fh5co-hero .flexslider ul li:nth-child(3) .slider-text > .slider-text-inner span.upper{
   color: #fff;
@@ -342,6 +343,7 @@ nav .fh5co-nav-toggle i::after {
   font-size: 20px;
   margin-bottom: 1em;
   color: #766149;
+  font-weight: bold;
 }
 /* home-img ---- SP */
 @media (max-width: 768px) {
