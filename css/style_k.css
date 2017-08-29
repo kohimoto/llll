@@ -461,6 +461,7 @@ nav .fh5co-nav-toggle i::after {
 @media (max-width: 768px) {
   .menu_table {
     display: block;
+    width: auto;
   }
 }
 /* =======================================================
